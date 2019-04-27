@@ -1,0 +1,59 @@
+//override third-party css
+
+.fe_container .fe_daily {
+  padding-left: 20px;
+}
+
+.fe_container .fe_daily .fe_day .fe_label {
+  font-size: $font-size-small;
+}
+
+.fe_container .fe_daily .fe_icon {
+  margin-top: 10px;
+}
+
+.fe_container .fe_forecast {
+  margin-top: 0;
+}
+
+.fe_container .fe_currently {
+  width: auto;
+}
+
+.fe_container .fe_daily .fe_day {
+  display: inline-block;
+  text-align: center;
+  width: 12.5%;
+}
+
+.fe_container .fe_daily .fe_day .fe_temp_bar {
+  font-size: $font-size-small;
+  margin: 35px auto 0;
+
+  .fe_high_temp {
+    top: -30px;
+  }
+
+  .fe_low_temp {
+    bottom: -30px;
+  }
+}
+
+.fe_container #fe_current_icon {
+  width: 95px;
+  height: 95px;
+}
+
+.fe_container .fe_currently .fe_temp {
+  font-size: 4rem;
+}
+
+.fe_alert {
+  display: none !important;
+}
+
+.fe_container .fe_currently .fe_temp .fe_dir {
+  font-size: $font-size-small;
+  left: -15px;
+  top: 5px;
+}

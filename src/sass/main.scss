@@ -1,0 +1,22 @@
+@import "compass";
+@import "./third_party/forecast_io";
+
+$color-light-primary: #FFFFFF;
+$color-light-secondary: #E0E0E0;
+$color-dark-primary: #000000;
+$font-size-large: 5rem;
+$font-size-medium: 1.6rem;
+$font-size-small: 1.2rem;
+$margin-default: 2rem;
+
+body {
+  margin: 0;
+  font-size: 10px;
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+  background-color: $color-dark-primary;
+  color: $color-light-primary;
+}
+
+@import "./layout/layout";
+@import "./modules/modules";

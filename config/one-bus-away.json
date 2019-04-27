@@ -1,0 +1,46 @@
+{
+  "stopsToDisplay": [
+    {
+      "displayName": "NW Market St & 28th Ave NW",
+      "stopId": "1_18100",
+      "routesToDisplay": [
+        {
+          "displayName": "17X",
+          "routeId": "1_100062"
+        }
+      ]
+    },
+    {
+      "displayName": "24th Ave NW & NW 57th St",
+      "stopId": "1_19360",
+      "routesToDisplay": [
+        {
+          "displayName": "18X",
+          "routeId": "1_100071"
+        },
+        {
+          "displayName": "40",
+          "routeId": "1_102574"
+        }
+      ]
+    },
+    {
+      "displayName": "NW Market St & Ballard Ave NW",
+      "stopId": "1_18120",
+      "routesToDisplay": [
+        {
+          "displayName": "18X",
+          "routeId": "1_100071"
+        },
+        {
+          "displayName": "17X",
+          "routeId": "1_100062"
+        },
+        {
+          "displayName": "40",
+          "routeId": "1_102574"
+        }
+      ]
+    }
+  ]
+}

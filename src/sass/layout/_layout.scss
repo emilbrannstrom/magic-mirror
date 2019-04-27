@@ -1,0 +1,43 @@
+.Layout--Weather {
+  max-width: 70%;
+  max-height: 50%;
+  position: fixed;
+  text-align: left;
+  left: 0;
+  top: 0;
+  padding-left: $margin-default;
+  padding-top: $margin-default;
+}
+
+.Layout--Clock {
+  max-height: 50%;
+  max-width: 30%;
+  position: fixed;
+  text-align: right;
+  right: 0;
+  top: 0;
+  padding-right: $margin-default;
+  padding-top: $margin-default;
+}
+
+.Layout--Transit {
+  max-height: 50%;
+  max-width: 30%;
+  position: fixed;
+  text-align: right;
+  left: 0;
+  bottom: 0;
+  padding-left: $margin-default;
+  padding-bottom: $margin-default;
+}
+
+.Layout--Headlines {
+  max-height: 50%;
+  max-width: 70%;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: $margin-default;
+  margin-bottom: $margin-default;
+}

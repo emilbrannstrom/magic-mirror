@@ -1,0 +1,32 @@
+.Transit--stop-name {
+  font-size: $font-size-medium;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.Transit--departure-line-name {
+  display: inline-block;
+  width: 33.333%;
+  font-size: $font-size-small;
+  text-align: left;
+}
+
+.Transit--departure-time-to-depart {
+  display: inline-block;
+  width: 33.333%;
+  font-size: $font-size-small;
+  text-align: right;
+}
+
+.Transit--departure-time {
+  display: inline-block;
+  width: 33.333%;
+  font-size: $font-size-small;
+  text-align: right;
+}
+
+.Transit--no-departures-message {
+  text-align: right;
+  font-size: $font-size-small;
+}
